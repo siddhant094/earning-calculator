@@ -28,7 +28,7 @@ const Earnings = () => {
 
     const changeModal = () => {
         setShowModal(true);
-        console.log('CHANGED');
+        // console.log('CHANGED');
     };
 
     useEffect(() => {

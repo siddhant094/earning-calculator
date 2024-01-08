@@ -8,7 +8,7 @@ const Header = (props) => {
     return (
         <React.Fragment>
             <header className='pt-4 pb-4 flex justify-evenly'>
-                <img src={logo} className='w-[200px]' />
+                {/* <img src={logo} className='w-[200px]' /> */}
                 {props.show ? (
                     <button className='w-64 h-9 rounded-3xl border border-white inline-flex justify-center items-center'>
                         {/* <div className='w-5 h-5 relative' /> */}

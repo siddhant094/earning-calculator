@@ -30,8 +30,8 @@ const Home = () => {
 
     return (
         <React.Fragment>
-            <Header show={false} />
-            <div className='flex justify-center grow'>
+            {/* <Header show={false} /> */}
+            <div className='flex justify-center grow h-screen items-center'>
                 <div className='w-[713px] h-[348px] flex-col justify-center items-center gap-[60px] inline-flex'>
                     <div className='h-60 flex-col justify-start items-center gap-6 flex'>
                         <div className='w-[741px] text-center text-white text-[50px] font-bold leading-[72px]'>
